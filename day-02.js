@@ -67,7 +67,7 @@ function getLast(arr){
   return arr[arr.length-1]; 
 }
 function pushElement(arr){
-  var el = 1;
+  let el = 1;
   arr.push(el);
   return arr;
 }
