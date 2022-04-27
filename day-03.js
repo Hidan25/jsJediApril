@@ -25,3 +25,27 @@ function saleHotdogs(n) {
 }
 
 task 03
+https://www.codewars.com/kata/572059afc2f4612825000d8a
+function howManydays(month) {
+  var days;
+  switch (month) {
+    case 1:
+      return 31;
+      break;
+    case 2:
+      return 28;
+      break;
+    case 3:
+      return 31;
+      break;
+    case 4:
+      return 30;
+      break;
+    case 12:
+      return 31;
+      break;
+    default:
+      return "Enter another month :)";
+  }
+  return days;
+}
