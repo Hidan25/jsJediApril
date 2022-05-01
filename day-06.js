@@ -18,7 +18,7 @@ function hero(bullets, dragons) {
 }
 Task 03 
 https://www.codewars.com/kata/59441520102eaa25260000bf
-function unusualFive() {
-  let arr = ['zero','one','two','three','four'];
-  return arr.length;
+function unusualFive() {                                      //or
+  let arr = ['zero','one','two','three','four'];               //  let arr = ['zero','one','two','three','four','five'];
+  return arr.length;                                           // return arr.indexOf('five');
 }
