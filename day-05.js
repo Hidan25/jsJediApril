@@ -15,3 +15,7 @@ function bonusTime(salary, bonus) {
   }
 }
 Task 03
+https://www.codewars.com/kata/5a58d889880385c2f40000aa
+function automorphic(n) {
+  return Math.pow(n, 2).toString().endsWith(n) ? "Automorphic" : "Not!!";
+}
