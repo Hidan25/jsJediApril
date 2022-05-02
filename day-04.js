@@ -16,8 +16,8 @@ function padIt(str, n) {
 task 02 
 http://www.codewars.com/kata/5721a78c283129e416000999
 function pickIt(arr) {
-  var odd = [],
-    even = [];
+  let odd = [],
+  let  even = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 1) {
       odd.push(arr[i]);
@@ -30,7 +30,7 @@ function pickIt(arr) {
 task 03
 http://www.codewars.com/kata/5721c189cdd71194c1000b9b
 function grabDoll(dolls) {
-  var bag = [];
+  let bag = [];
   for (let i = 0; i < dolls.length; i++) {
     if (dolls[i] == "Hello Kitty" || dolls[i] == "Barbie doll") {
       bag.push(dolls[i]);
